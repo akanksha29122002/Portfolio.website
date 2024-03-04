@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKANKSHA - DEVELOPER Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 54);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(11, 11, 69);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.04rem;
+            color: rgb(67, 67, 116);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.7px;
+            margin: 60px 84px;
+        }
+
+        main script {
+            color: blueviolet;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.0rem;
+            width: 40px;
+            margin: 70px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: 30px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: #9c97f1;
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.7rem;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 82vw;
+            height: 1.7px;
+            margin: 50px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color:  rgb(35, 35, 79);
+            
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+       .footer ul{
+        list-style: none ;
+       }
+       
+       .footer > div{
+        width: 223px;
+       }
+
+       footer .footer-rights{
+        text-align: center;
+        color: rgb(111, 55, 142);
+        padding: 12px;
+       }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"> Akanksha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi , My name is <span class="purple"> Akanksha</span>
+
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text gray">What I have done so far</span>
+            <h1> Work Experince</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (1).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        "Hypertext" refers to links that connect web pages to one another, either within a single
+                        website or between websites. Links are a fundamental aspect of the Web. By uploading content to
+                        the Internet and linking it to pages created by other people, you become an active participant
+                        in the World Wide Web.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (2).png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        CSS is designed to enable the separation of content and presentation, including layout, colors,
+                        and fonts.[3] This separation can improve content accessibility;[further explanation needed]
+                        provide more flexibility and control in the specification of presentation characteristics;
+                        enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css
+                        file, which reduces complexity and repetition in the structural content; and enable the .css
+                        file to be cached to improve the page load speed between the pages that share the file and its
+                        formatting.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (3).png" alt="">
+                    <div class="vertical-title">
+                        Java Developer(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript
+                        standard.[11] It has dynamic typing, prototype-based object-orientation, and first-class
+                        functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming
+                        styles. It has application programming interfaces (APIs) for working with text, dates, regular
+                        expressions, standard data structures, and the Document Object Model (DOM).
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (4).png" alt="">
+                    <div class="vertical-title">
+                        Version control system(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Version control systems are most commonly run as stand-alone applications, but revision control
+                        is also embedded in various types of software, such as word processors and spreadsheets,
+                        collaborative web docs,[3] and content management systems, e.g., Wikipedia's page history.
+                        Revision control enables reverting a document to a previous revision, which is critical for
+                        allowing editors to track each other's edits, correct mistakes, and defend against vandalism and
+                        spamming in wikis.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com (5).png" alt="">
+                    <div class="vertical-title">
+                        Package Manager(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        A package manager deals with packages, distributions of software and data in archive files.
+                        Packages contain metadata, such as the software's name, description of its purpose, version
+                        number, vendor, checksum (preferably a cryptographic hash function), and a list of dependencies
+                        necessary for the software to run properly. Upon installation, metadata is stored in a local
+                        package database.
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Akanksha's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contsct</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contsct</li>
+            </ul>
+            </div>
+            <div class="footer-fourth">
+              <ul>  <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contsct</li>
+            </ul> 
+            </div>
+        </div>
+        <div class="footer-rights">
+           copyright &#169; www.akankshasportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Video Editor.', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
